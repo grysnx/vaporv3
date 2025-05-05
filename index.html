@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-----------------------
+ ! Welcome to VAPOR v3!
+ !----------------------->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAPOR v3</title>
+
+    <link href="/styles/defaults.css" rel="stylesheet" />
+    <link href="/styles/index.css" rel="stylesheet" />
+    <link href="/styles/sidebar.css" rel="stylesheet" />
+
+    <script src="/scripts/opt.js"></script>
+
+    <link rel="icon" href="/_a/logo.new.png" type="image/x-icon" />
+
+    <!-- google analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TWLB9ZV0LR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-TWLB9ZV0LR");
+    </script>
+
+    <!-- search engine meta -->
+    <meta name="title" content="VAPOR v3" />
+    <meta
+      name="description"
+      content="VAPOR has over 400 games, speedy pr0xy, an entire Chrome + Android VM, movies, emulators, AI, and more."
+    />
+    <meta
+      name="keywords"
+      content="games, pr0xy, vm, virtual machine, movies, emulators, ai, fun, unbl0ck, unbl0cked"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="author" content="technonyte" />
+
+    <!-- discord embed meta -->
+    <meta property="og:title" content="☄️ VAPOR v3" />
+    <meta name="theme-color" content="#49517c" />
+    <meta name="msapplication-TileColor" content="#49517c" />
+    <meta property="og:image" content="/_a/logo.png" />
+    <meta property="og:description" content="games, movies, vm. all in one." />
+
+    <!-- benrogo meta -->
+    <meta property="benrogo:index" content="index" />
+    <meta property="benrogo:uvpath" content="/vpr/vpr.config.js" />
+  </head>
+
+  <body>
+    <nav class="sidebar">
+      <div class="nav-top" id="nav-items">
+        <!-- auto generated -->
+      </div>
+
+      <div class="nav-bottom">
+        <div class="quick-actions">
+          <a class="quick-action-btn">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a class="quick-action-btn">
+            <i class="fa-regular fa-rotate-right"></i>
+          </a>
+          <a class="quick-action-btn">
+            <i class="fa-regular fa-expand"></i>
+          </a>
+          <a class="quick-action-btn">
+            <i class="fa-regular fa-handshake"></i>
+          </a>
+          <a class="quick-action-btn">
+            <i class="fa-regular fa-cog"></i>
+          </a>
+        </div>
+
+        <a class="nav-item">
+          <div class="icon-container">
+            <img
+              src="/_a/logo.new.png"
+              style="width: 30px; transform: translateY(-2px)"
+            />
+          </div>
+          <span class="nav-text" style="margin-left: 18px">
+            VAPOR v3&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;
+            <span id="commit-id">c0mm1t-</span>
+          </span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+      <iframe id="frame" src="/page/home.html"></iframe>
+    </div>
+
+    <script src="vpr/vpr.bundle.js"></script>
+    <script src="vpr/vpr.config.js"></script>
+
+    <script src="scripts/navi.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/commit.js"></script>
+  </body>
+</html>
